@@ -1,0 +1,38 @@
+﻿@page "/catalog"﻿
+@attribute [Authorize]
+
+@using Microsoft.AspNetCore.Authorization;
+
+<PageTitle>Catalog</PageTitle>
+<CategorySelector OnCategoryChanged="CategoryChanged"/>
+<ProductList OnItemSelected="OnConstructorSelected" />
+<Pager CurrentPage="@DataService.CurrentPage" />
+<ProductInfo SelectedItem="SelectedItem"/>
+
+@code {
+	[Inject]
+	public IDataService DataService { get; set; }
+
+	[Parameter]
+	public string? Category { get; set; }
+
+	public Product? SelectedItem { get; set; }
+
+	protected override async Task OnInitializedAsync()
+	{
+		await DataService.GetProductListAsync(Category);
+	}
+
+	void OnConstructorSelected(int id)
+	{
+		SelectedItem = DataService.Products.FirstOrDefault(c => c.Id == id);
+		StateHasChanged();
+	}
+
+	async void CategoryChanged(string normalizedName)
+	{
+		await DataService.GetProductListAsync(normalizedName);
+		DataService.CurrentPage = 1;
+		StateHasChanged();
+	}
+}

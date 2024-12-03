@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.BlazorWasm\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.BlazorWasm\\obj\\Debug\\net8.0\\compressed\\1y9cpint4u.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.BlazorWasm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WEB_253502_Chertok.BlazorWasm.styles.css",
+      "PackagePath": "staticwebassets\\WEB_253502_Chertok.BlazorWasm.styles.css"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.BlazorWasm\\wwwroot\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\appsettings.Development.json"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.BlazorWasm\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.BlazorWasm\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.BlazorWasm\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.BlazorWasm\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.BlazorWasm\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.BlazorWasm\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.BlazorWasm\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.BlazorWasm\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WEB_253502_Chertok.BlazorWasm.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WEB_253502_Chertok.BlazorWasm.props",
+      "PackagePath": "build\\WEB_253502_Chertok.BlazorWasm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WEB_253502_Chertok.BlazorWasm.props",
+      "PackagePath": "buildMultiTargeting\\WEB_253502_Chertok.BlazorWasm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WEB_253502_Chertok.BlazorWasm.props",
+      "PackagePath": "buildTransitive\\WEB_253502_Chertok.BlazorWasm.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

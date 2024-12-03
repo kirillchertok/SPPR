@@ -1,0 +1,5 @@
+﻿@model Cart
+<a asp-controller="Cart" asp-action="Index" class="navbar-text ms-auto ">
+    @Model.Count
+    <i class="fa-solid fa-cart-shopping"></i> (@Model.Count)
+</a>

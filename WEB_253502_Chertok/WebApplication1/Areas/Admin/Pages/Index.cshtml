@@ -1,0 +1,19 @@
+﻿@page
+@model WEB_253502_Chertok.Areas.Admin.Pages.IndexModel
+@{
+	ViewData["Title"] = "Index";
+}
+<div class="container">
+	<p class="fs-3 fw-bold">Index</p>
+	<a class="btn btn-primary" asp-area="Admin" asp-page="/Create">Create</a>
+
+	@{
+		await Html.RenderPartialAsync("_PagerAndCardsPartial", new
+		{
+			CurrentPage = Model.CurrentPage,
+			TotalPages = Model.TotalPages,
+			Products = Model.Products,
+			Admin = true,
+		});
+	}
+</div>

@@ -1,0 +1,38 @@
+﻿@page
+@model WEB_253502_Chertok.Areas.Admin.Pages.CreateModel
+@{
+}
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<p class="fs-2 fw-bold">Create</p>
+			<p class="fs-4 fw-bold">Product</p>
+			<hr />
+			<form method="post" enctype="multipart/form-data">
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input asp-for="@Model.Product.Name" type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter name">
+				</div>
+				<div class="form-group">
+					<label for="description">Description</label>
+					<input asp-for="@Model.Product.Description" type="text" class="form-control" id="description" aria-describedby="description" placeholder="Enter description">
+				</div>
+				<div class="form-group">
+					<label for="price">Price</label>
+					<input asp-for="@Model.Product.Price" type="text" class="form-control" id="price" aria-describedby="price" placeholder="Enter price">
+				</div>
+				<div class="form-group">
+					<label for="picker">Select category</label>
+					<select asp-for="@Model.Product.CategoryId" class="form-control" id="picker" asp-items="@Model.Categories">
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="filepicker">Pick a set photo</label>
+					<input asp-for="@Model.Image" type="file" class="form-control-file" id="filepicker">
+				</div>
+				<button type="submit" class="btn btn-primary">Create</button>
+				<a asp-controller="Product" asp-action="Index">Back to list</a>
+			</form>
+		</div>
+	</div>
+</div>

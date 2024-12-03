@@ -1,0 +1,46 @@
+﻿@page "{id:int?}"
+@model WEB_253502_Chertok.Areas.Admin.Pages.EditModel
+@{
+	ViewData["Title"] = "Edit";
+}
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<p class="fs-2 fw-bold">Edit</p>
+			<p class="fs-4 fw-bold">Product</p>
+			<hr />
+			<form method="post" enctype="multipart/form-data">
+				<input type="hidden" asp-for="Product.Id" />
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter name" value="@Model.Product.Name">
+				</div>
+				<div class="form-group">
+					<label for="description">Description</label>
+					<input type="text" class="form-control" id="description" aria-describedby="description" placeholder="Enter description" value="@Model.Product.Description">
+				</div>
+				<div class="form-group">
+					<label for="price">Price</label>
+					<input type="text" class="form-control" id="price" aria-describedby="price" placeholder="Enter price" value="@Model.Product.Price">
+				</div>
+				<div class="form-group">
+					<label for="picker">Select category</label>
+					<select class="form-control" id="picker" asp-for="@Model.Product.CategoryId" asp-items="@Model.Categories">
+					</select>
+				</div>
+				<div class="form-group">
+					@if (!string.IsNullOrEmpty(Model.CurrentImage))
+					{
+						<div class="form-group">
+							<img src="@Model.CurrentImage" />
+						</div>
+					}
+					<label for="filepicker">Pick a new photo</label>
+					<input asp-for="@Model.Image" type="file" class="form-control-file" id="filepicker">
+				</div>
+				<button type="submit" class="btn btn-primary">Confirm editing</button>
+				<a asp-controller="Product" asp-action="Index">Back to list</a>
+			</form>
+		</div>
+	</div>
+</div>

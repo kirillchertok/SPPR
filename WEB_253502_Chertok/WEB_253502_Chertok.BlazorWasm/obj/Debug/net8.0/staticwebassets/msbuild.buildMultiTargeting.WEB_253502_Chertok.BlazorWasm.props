@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WEB_253502_Chertok.BlazorWasm.props" />
+</Project>

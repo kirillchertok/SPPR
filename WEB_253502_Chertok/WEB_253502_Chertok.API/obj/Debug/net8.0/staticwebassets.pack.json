@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.API\\wwwroot\\images\\default-profile-picture.png",
+      "PackagePath": "staticwebassets\\images\\default-profile-picture.png"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.API\\wwwroot\\images\\headphones1.png",
+      "PackagePath": "staticwebassets\\images\\headphones1.png"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.API\\wwwroot\\images\\headphones2.png",
+      "PackagePath": "staticwebassets\\images\\headphones2.png"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.API\\wwwroot\\images\\laptop1.png",
+      "PackagePath": "staticwebassets\\images\\laptop1.png"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.API\\wwwroot\\images\\laptop2.png",
+      "PackagePath": "staticwebassets\\images\\laptop2.png"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.API\\wwwroot\\images\\ndtxhlkh.jpg",
+      "PackagePath": "staticwebassets\\images\\ndtxhlkh.jpg"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.API\\wwwroot\\images\\phone1.png",
+      "PackagePath": "staticwebassets\\images\\phone1.png"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.API\\wwwroot\\images\\phone2.png",
+      "PackagePath": "staticwebassets\\images\\phone2.png"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.API\\wwwroot\\images\\tv1.png",
+      "PackagePath": "staticwebassets\\images\\tv1.png"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.API\\wwwroot\\images\\tv2.png",
+      "PackagePath": "staticwebassets\\images\\tv2.png"
+    },
+    {
+      "Id": "C:\\253502\\5 sem\\SPPR\\WEB_253502_Chertok\\WEB_253502_Chertok.API\\wwwroot\\images\\x21ajl1s.png",
+      "PackagePath": "staticwebassets\\images\\x21ajl1s.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WEB_253502_Chertok.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WEB_253502_Chertok.API.props",
+      "PackagePath": "build\\WEB_253502_Chertok.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WEB_253502_Chertok.API.props",
+      "PackagePath": "buildMultiTargeting\\WEB_253502_Chertok.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WEB_253502_Chertok.API.props",
+      "PackagePath": "buildTransitive\\WEB_253502_Chertok.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

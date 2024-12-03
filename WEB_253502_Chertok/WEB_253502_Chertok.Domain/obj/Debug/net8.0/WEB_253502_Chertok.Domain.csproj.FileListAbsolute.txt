@@ -1,0 +1,11 @@
+C:\253502\5 sem\SPPR\WEB_253502_Chertok\WEB_253502_Chertok.Domain\bin\Debug\net8.0\WEB_253502_Chertok.Domain.deps.json
+C:\253502\5 sem\SPPR\WEB_253502_Chertok\WEB_253502_Chertok.Domain\bin\Debug\net8.0\WEB_253502_Chertok.Domain.dll
+C:\253502\5 sem\SPPR\WEB_253502_Chertok\WEB_253502_Chertok.Domain\bin\Debug\net8.0\WEB_253502_Chertok.Domain.pdb
+C:\253502\5 sem\SPPR\WEB_253502_Chertok\WEB_253502_Chertok.Domain\obj\Debug\net8.0\WEB_253502_Chertok.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\253502\5 sem\SPPR\WEB_253502_Chertok\WEB_253502_Chertok.Domain\obj\Debug\net8.0\WEB_253502_Chertok.Domain.AssemblyInfoInputs.cache
+C:\253502\5 sem\SPPR\WEB_253502_Chertok\WEB_253502_Chertok.Domain\obj\Debug\net8.0\WEB_253502_Chertok.Domain.AssemblyInfo.cs
+C:\253502\5 sem\SPPR\WEB_253502_Chertok\WEB_253502_Chertok.Domain\obj\Debug\net8.0\WEB_253502_Chertok.Domain.csproj.CoreCompileInputs.cache
+C:\253502\5 sem\SPPR\WEB_253502_Chertok\WEB_253502_Chertok.Domain\obj\Debug\net8.0\WEB_253502_Chertok.Domain.dll
+C:\253502\5 sem\SPPR\WEB_253502_Chertok\WEB_253502_Chertok.Domain\obj\Debug\net8.0\refint\WEB_253502_Chertok.Domain.dll
+C:\253502\5 sem\SPPR\WEB_253502_Chertok\WEB_253502_Chertok.Domain\obj\Debug\net8.0\WEB_253502_Chertok.Domain.pdb
+C:\253502\5 sem\SPPR\WEB_253502_Chertok\WEB_253502_Chertok.Domain\obj\Debug\net8.0\ref\WEB_253502_Chertok.Domain.dll

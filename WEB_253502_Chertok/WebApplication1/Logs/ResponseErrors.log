@@ -1,0 +1,388 @@
+2024-11-29 17:00:55.432 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Pages/Create.cshtml'.
+2024-11-29 17:00:55.451 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Pages/Delete.cshtml'.
+2024-11-29 17:00:55.453 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Pages/Details.cshtml'.
+2024-11-29 17:00:55.454 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Pages/Edit.cshtml'.
+2024-11-29 17:00:55.455 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Pages/Index.cshtml'.
+2024-11-29 17:00:55.456 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Pages/_ViewImports.cshtml'.
+2024-11-29 17:00:55.457 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Pages/_ViewStart.cshtml'.
+2024-11-29 17:00:55.458 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Register.cshtml'.
+2024-11-29 17:00:55.459 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Cart/Index.cshtml'.
+2024-11-29 17:00:55.461 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-11-29 17:00:55.462 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Product/Index.cshtml'.
+2024-11-29 17:00:55.463 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Cart/Default.cshtml'.
+2024-11-29 17:00:55.464 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-11-29 17:00:55.465 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_MenuPartial.cshtml'.
+2024-11-29 17:00:55.466 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_PagerAndCardsPartial.cshtml'.
+2024-11-29 17:00:55.467 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_UserInfoPartial.cshtml'.
+2024-11-29 17:00:55.468 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-11-29 17:00:55.469 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-11-29 17:00:55.470 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-11-29 17:00:55.471 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-11-29 17:00:55.479 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider"]
+2024-11-29 17:00:55.498 +03:00 [INF] User profile is available. Using 'C:\Users\kir\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-29 17:00:55.540 +03:00 [DBG] Hosting starting
+2024-11-29 17:00:55.546 +03:00 [DBG] Reading data from file 'C:\Users\kir\AppData\Local\ASP.NET\DataProtection-Keys\key-48347a26-693b-4823-b347-5ffb32c5602c.xml'.
+2024-11-29 17:00:55.552 +03:00 [DBG] Reading data from file 'C:\Users\kir\AppData\Local\ASP.NET\DataProtection-Keys\key-810c84bb-a32a-4568-89bb-32272f1a521b.xml'.
+2024-11-29 17:00:55.555 +03:00 [DBG] Reading data from file 'C:\Users\kir\AppData\Local\ASP.NET\DataProtection-Keys\key-cc35e7a9-6d8f-4241-942c-0ffe97dc49a6.xml'.
+2024-11-29 17:00:55.559 +03:00 [DBG] Reading data from file 'C:\Users\kir\AppData\Local\ASP.NET\DataProtection-Keys\key-d04132b9-80a8-4cb2-82ed-14146a11acfa.xml'.
+2024-11-29 17:00:55.563 +03:00 [DBG] Found key {48347a26-693b-4823-b347-5ffb32c5602c}.
+2024-11-29 17:00:55.566 +03:00 [DBG] Found key {810c84bb-a32a-4568-89bb-32272f1a521b}.
+2024-11-29 17:00:55.568 +03:00 [DBG] Found key {cc35e7a9-6d8f-4241-942c-0ffe97dc49a6}.
+2024-11-29 17:00:55.570 +03:00 [DBG] Found key {d04132b9-80a8-4cb2-82ed-14146a11acfa}.
+2024-11-29 17:00:55.576 +03:00 [DBG] Considering key {810c84bb-a32a-4568-89bb-32272f1a521b} with expiration date 2024-12-02 13:17:03Z as default key.
+2024-11-29 17:00:55.579 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-11-29 17:00:55.583 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-11-29 17:00:55.585 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-11-29 17:00:55.589 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-11-29 17:00:55.592 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-11-29 17:00:55.594 +03:00 [DBG] Using key {810c84bb-a32a-4568-89bb-32272f1a521b} as the default key.
+2024-11-29 17:00:55.597 +03:00 [DBG] Key ring with default key {810c84bb-a32a-4568-89bb-32272f1a521b} was loaded during application startup.
+2024-11-29 17:00:55.663 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-29 17:00:55.666 +03:00 [INF] Now listening on: http://localhost:5001
+2024-11-29 17:00:55.669 +03:00 [DBG] Loaded hosting startup assembly WEB_253502_Chertok
+2024-11-29 17:00:55.670 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-29 17:00:55.672 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-29 17:00:55.674 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-29 17:00:55.695 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-29 17:00:55.698 +03:00 [INF] Hosting environment: Development
+2024-11-29 17:00:55.699 +03:00 [INF] Content root path: C:\253502\5 sem\SPPR\WEB_253502_Chertok\WebApplication1
+2024-11-29 17:00:55.701 +03:00 [DBG] Hosting started
+2024-11-29 17:00:55.802 +03:00 [DBG] Connection id "0HN8GFOV8VO65" received FIN.
+2024-11-29 17:00:55.802 +03:00 [DBG] Connection id "0HN8GFOV8VO64" received FIN.
+2024-11-29 17:00:55.806 +03:00 [DBG] Connection id "0HN8GFOV8VO64" accepted.
+2024-11-29 17:00:55.806 +03:00 [DBG] Connection id "0HN8GFOV8VO65" accepted.
+2024-11-29 17:00:55.809 +03:00 [DBG] Connection id "0HN8GFOV8VO64" started.
+2024-11-29 17:00:55.810 +03:00 [DBG] Connection id "0HN8GFOV8VO65" started.
+2024-11-29 17:00:55.817 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-29 17:00:55.817 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-29 17:00:55.831 +03:00 [DBG] Connection id "0HN8GFOV8VO65" stopped.
+2024-11-29 17:00:55.835 +03:00 [DBG] Connection id "0HN8GFOV8VO64" stopped.
+2024-11-29 17:00:55.840 +03:00 [DBG] Connection id "0HN8GFOV8VO65" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-29 17:00:55.841 +03:00 [DBG] Connection id "0HN8GFOV8VO64" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-29 17:00:55.917 +03:00 [DBG] Connection id "0HN8GFOV8VO66" accepted.
+2024-11-29 17:00:55.924 +03:00 [DBG] Connection id "0HN8GFOV8VO66" started.
+2024-11-29 17:00:55.960 +03:00 [DBG] Connection 0HN8GFOV8VO66 established using the following protocol: "Tls12"
+2024-11-29 17:00:55.994 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-29 17:00:56.062 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-29 17:00:56.066 +03:00 [DBG] The request path / does not match a supported file type
+2024-11-29 17:00:56.081 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2024-11-29 17:00:56.086 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.HomeController.Index (WEB_253502_Chertok)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2024-11-29 17:00:56.088 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.HomeController.Index (WEB_253502_Chertok)'
+2024-11-29 17:00:56.113 +03:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-11-29 17:00:56.118 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WEB_253502_Chertok)'
+2024-11-29 17:00:56.134 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WEB_253502_Chertok).
+2024-11-29 17:00:56.139 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-29 17:00:56.141 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-11-29 17:00:56.143 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-11-29 17:00:56.147 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-29 17:00:56.149 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-11-29 17:00:56.157 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.HomeController (WEB_253502_Chertok)
+2024-11-29 17:00:56.160 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.HomeController (WEB_253502_Chertok)
+2024-11-29 17:00:56.165 +03:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2024-11-29 17:00:56.171 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-29 17:00:56.174 +03:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 8.4699ms.
+2024-11-29 17:00:56.211 +03:00 [DBG] An antiforgery cookie token was reused.
+2024-11-29 17:00:56.225 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2024-11-29 17:00:56.246 +03:00 [DBG] View lookup cache miss for view '_MenuPartial' in controller 'Home'.
+2024-11-29 17:00:56.270 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Home])
+2024-11-29 17:00:56.276 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-11-29 17:00:56.279 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-11-29 17:00:56.284 +03:00 [DBG] Found the endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Product])
+2024-11-29 17:00:56.287 +03:00 [DBG] Successfully processed template Catalog/{category?} for WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok) resulting in /Catalog and 
+2024-11-29 17:00:56.290 +03:00 [DBG] Link generation succeeded for endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Catalog
+2024-11-29 17:00:56.294 +03:00 [DBG] Found the endpoints ["/Index","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[Admin],page=[/Index])
+2024-11-29 17:00:56.298 +03:00 [DBG] Successfully processed template Admin for /Index resulting in /Admin and 
+2024-11-29 17:00:56.299 +03:00 [DBG] Link generation succeeded for endpoints ["/Index","Route: {controller=Home}/{action=Index}/{id?}"] with result /Admin
+2024-11-29 17:00:56.302 +03:00 [DBG] View lookup cache miss for view '_UserInfoPartial' in controller 'Home'.
+2024-11-29 17:00:56.307 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Account])
+2024-11-29 17:00:56.309 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Login and 
+2024-11-29 17:00:56.312 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Login
+2024-11-29 17:00:56.315 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Register],controller=[Account])
+2024-11-29 17:00:56.319 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Register and 
+2024-11-29 17:00:56.321 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Register
+2024-11-29 17:00:56.328 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-29 17:00:56.333 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-29 17:00:56.341 +03:00 [INF] Executed ViewResult - view Index executed in 177.2179ms.
+2024-11-29 17:00:56.345 +03:00 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WEB_253502_Chertok) in 193.8338ms
+2024-11-29 17:00:56.348 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WEB_253502_Chertok)'
+2024-11-29 17:00:56.352 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-29 17:00:56.352 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-29 17:00:56.352 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/WebApplication1.styles.css - null null
+2024-11-29 17:00:56.355 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-29 17:00:56.364 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 11.814ms
+2024-11-29 17:00:56.365 +03:00 [DBG] The request path /WebApplication1.styles.css does not match an existing file
+2024-11-29 17:00:56.367 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 375.2585ms
+2024-11-29 17:00:56.372 +03:00 [DBG] No candidates found for the request path '/WebApplication1.styles.css'
+2024-11-29 17:00:56.378 +03:00 [DBG] Request did not match any endpoints
+2024-11-29 17:00:56.380 +03:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-11-29 17:00:56.384 +03:00 [ERR] request https://localhost:7001/WebApplication1.styles.css returns 404
+2024-11-29 17:00:56.386 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/WebApplication1.styles.css - 404 0 null 33.8612ms
+2024-11-29 17:00:56.391 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7001/WebApplication1.styles.css, Response status code: 404
+2024-11-29 17:00:56.410 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_vs/browserLink - null null
+2024-11-29 17:00:56.431 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.8247ms
+2024-11-29 17:01:26.617 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Account/Login - null null
+2024-11-29 17:01:26.623 +03:00 [DBG] The request path /Account/Login does not match a supported file type
+2024-11-29 17:01:26.626 +03:00 [DBG] 1 candidate(s) found for the request path '/Account/Login'
+2024-11-29 17:01:26.627 +03:00 [DBG] Endpoint 'WEB_253502_Chertok.Controllers.AccountController.Login (WEB_253502_Chertok)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Account/Login'
+2024-11-29 17:01:26.630 +03:00 [DBG] Request matched endpoint 'WEB_253502_Chertok.Controllers.AccountController.Login (WEB_253502_Chertok)'
+2024-11-29 17:01:26.634 +03:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-11-29 17:01:26.637 +03:00 [INF] Executing endpoint 'WEB_253502_Chertok.Controllers.AccountController.Login (WEB_253502_Chertok)'
+2024-11-29 17:01:26.644 +03:00 [INF] Route matched with {action = "Login", controller = "Account", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task Login() on controller WEB_253502_Chertok.Controllers.AccountController (WEB_253502_Chertok).
+2024-11-29 17:01:26.648 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-29 17:01:26.651 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-11-29 17:01:26.653 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-11-29 17:01:26.657 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-29 17:01:26.660 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-11-29 17:01:26.664 +03:00 [DBG] Executing controller factory for controller WEB_253502_Chertok.Controllers.AccountController (WEB_253502_Chertok)
+2024-11-29 17:01:26.667 +03:00 [DBG] Executed controller factory for controller WEB_253502_Chertok.Controllers.AccountController (WEB_253502_Chertok)
+2024-11-29 17:01:26.670 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Home])
+2024-11-29 17:01:26.674 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-11-29 17:01:26.676 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-11-29 17:01:26.680 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Home])
+2024-11-29 17:01:26.683 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-11-29 17:01:26.686 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-11-29 17:01:30.791 +03:00 [INF] Executed action WEB_253502_Chertok.Controllers.AccountController.Login (WEB_253502_Chertok) in 4127.1667ms
+2024-11-29 17:01:30.794 +03:00 [INF] Executed endpoint 'WEB_253502_Chertok.Controllers.AccountController.Login (WEB_253502_Chertok)'
+2024-11-29 17:01:30.796 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'http://localhost:8080/realms/master/.well-known/openid-configuration'. Will retry at '29.11.2024 14:01:30 +00:00'. Exception: 'System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (localhost:8080)
+ ---> System.Net.Sockets.SocketException (10061): Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.SendAsyncAndRetryOnNetworkError(HttpClient httpClient, Uri uri)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (localhost:8080)
+ ---> System.Net.Sockets.SocketException (10061): Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.SendAsyncAndRetryOnNetworkError(HttpClient httpClient, Uri uri)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at WEB_253502_Chertok.Controllers.AccountController.Login() in C:\253502\5 sem\SPPR\WEB_253502_Chertok\WebApplication1\Controllers\AccountController.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at WEB_253502_Chertok.Middleware.RequestLoggingMiddleware.Invoke(HttpContext httpContext) in C:\253502\5 sem\SPPR\WEB_253502_Chertok\WebApplication1\Middleware\RequestLoggingMiddleware.cs:line 17
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-29 17:01:30.938 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-29 17:01:30.941 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-29 17:01:30.944 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-29 17:01:30.945 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-29 17:01:30.948 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Account/Login - 500 null text/html; charset=utf-8 4329.9849ms
+2024-11-29 17:01:30.958 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_vs/browserLink - null null
+2024-11-29 17:01:30.958 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-29 17:01:30.970 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 11.5492ms
+2024-11-29 17:01:30.971 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.6143ms
+2024-11-29 17:01:43.513 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-29 17:01:43.519 +03:00 [DBG] The request path / does not match a supported file type
+2024-11-29 17:01:43.526 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2024-11-29 17:01:43.528 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.HomeController.Index (WEB_253502_Chertok)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2024-11-29 17:01:43.531 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.HomeController.Index (WEB_253502_Chertok)'
+2024-11-29 17:01:43.535 +03:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-11-29 17:01:43.537 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WEB_253502_Chertok)'
+2024-11-29 17:01:43.539 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WEB_253502_Chertok).
+2024-11-29 17:01:43.543 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-29 17:01:43.546 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-11-29 17:01:43.548 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-11-29 17:01:43.555 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-29 17:01:43.558 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-11-29 17:01:43.563 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.HomeController (WEB_253502_Chertok)
+2024-11-29 17:01:43.570 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.HomeController (WEB_253502_Chertok)
+2024-11-29 17:01:43.573 +03:00 [DBG] View lookup cache hit for view 'Index' in controller 'Home'.
+2024-11-29 17:01:43.576 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-29 17:01:43.578 +03:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 5.1091ms.
+2024-11-29 17:01:43.584 +03:00 [DBG] An antiforgery cookie token was reused.
+2024-11-29 17:01:43.586 +03:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Home'.
+2024-11-29 17:01:43.590 +03:00 [DBG] View lookup cache hit for view '_MenuPartial' in controller 'Home'.
+2024-11-29 17:01:43.592 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Home])
+2024-11-29 17:01:43.598 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-11-29 17:01:43.602 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-11-29 17:01:43.605 +03:00 [DBG] Found the endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Product])
+2024-11-29 17:01:43.611 +03:00 [DBG] Successfully processed template Catalog/{category?} for WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok) resulting in /Catalog and 
+2024-11-29 17:01:43.614 +03:00 [DBG] Link generation succeeded for endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Catalog
+2024-11-29 17:01:43.618 +03:00 [DBG] Found the endpoints ["/Index","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[Admin],page=[/Index])
+2024-11-29 17:01:43.622 +03:00 [DBG] Successfully processed template Admin for /Index resulting in /Admin and 
+2024-11-29 17:01:43.625 +03:00 [DBG] Link generation succeeded for endpoints ["/Index","Route: {controller=Home}/{action=Index}/{id?}"] with result /Admin
+2024-11-29 17:01:43.628 +03:00 [DBG] View lookup cache hit for view '_UserInfoPartial' in controller 'Home'.
+2024-11-29 17:01:43.631 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Account])
+2024-11-29 17:01:43.634 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Login and 
+2024-11-29 17:01:43.640 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Login
+2024-11-29 17:01:43.646 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Register],controller=[Account])
+2024-11-29 17:01:43.651 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Register and 
+2024-11-29 17:01:43.657 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Register
+2024-11-29 17:01:43.661 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-29 17:01:43.665 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-29 17:01:43.668 +03:00 [INF] Executed ViewResult - view Index executed in 94.9532ms.
+2024-11-29 17:01:43.674 +03:00 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WEB_253502_Chertok) in 110.5088ms
+2024-11-29 17:01:43.678 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WEB_253502_Chertok)'
+2024-11-29 17:01:43.681 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-29 17:01:43.687 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-29 17:01:43.689 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 176.4182ms
+2024-11-29 17:01:43.715 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-29 17:01:43.721 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 5.2946ms
+2024-11-29 17:01:47.808 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Catalog - null null
+2024-11-29 17:01:47.813 +03:00 [DBG] The request path /Catalog does not match a supported file type
+2024-11-29 17:01:47.815 +03:00 [DBG] 1 candidate(s) found for the request path '/Catalog'
+2024-11-29 17:01:47.817 +03:00 [DBG] Endpoint 'WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)' with route pattern 'Catalog/{category?}' is valid for the request path '/Catalog'
+2024-11-29 17:01:47.820 +03:00 [DBG] Request matched endpoint 'WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)'
+2024-11-29 17:01:47.822 +03:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-11-29 17:01:47.823 +03:00 [INF] Executing endpoint 'WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)'
+2024-11-29 17:01:47.833 +03:00 [INF] Route matched with {action = "Index", controller = "Product", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller WEB_253502_Chertok.Controllers.ProductController (WEB_253502_Chertok).
+2024-11-29 17:01:47.837 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-29 17:01:47.840 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-11-29 17:01:47.843 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-11-29 17:01:47.848 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-29 17:01:47.850 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-11-29 17:01:47.854 +03:00 [DBG] Executing controller factory for controller WEB_253502_Chertok.Controllers.ProductController (WEB_253502_Chertok)
+2024-11-29 17:01:47.860 +03:00 [DBG] Executed controller factory for controller WEB_253502_Chertok.Controllers.ProductController (WEB_253502_Chertok)
+2024-11-29 17:01:47.867 +03:00 [DBG] Attempting to bind parameter 'category' of type 'System.String' ...
+2024-11-29 17:01:47.869 +03:00 [DBG] Attempting to bind parameter 'category' of type 'System.String' using the name '' in request data ...
+2024-11-29 17:01:47.871 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'category' of type 'System.String'.
+2024-11-29 17:01:47.874 +03:00 [DBG] Done attempting to bind parameter 'category' of type 'System.String'.
+2024-11-29 17:01:47.876 +03:00 [DBG] Done attempting to bind parameter 'category' of type 'System.String'.
+2024-11-29 17:01:47.880 +03:00 [DBG] Attempting to validate the bound parameter 'category' of type 'System.String' ...
+2024-11-29 17:01:47.884 +03:00 [DBG] Done attempting to validate the bound parameter 'category' of type 'System.String'.
+2024-11-29 17:01:47.887 +03:00 [DBG] Attempting to bind parameter 'pageNo' of type 'System.Int32' ...
+2024-11-29 17:01:47.889 +03:00 [DBG] Attempting to bind parameter 'pageNo' of type 'System.Int32' using the name '' in request data ...
+2024-11-29 17:01:47.891 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'pageNo' of type 'System.Int32'.
+2024-11-29 17:01:47.894 +03:00 [DBG] Done attempting to bind parameter 'pageNo' of type 'System.Int32'.
+2024-11-29 17:01:47.896 +03:00 [DBG] Done attempting to bind parameter 'pageNo' of type 'System.Int32'.
+2024-11-29 17:01:47.898 +03:00 [DBG] Attempting to validate the bound parameter 'pageNo' of type 'System.Int32' ...
+2024-11-29 17:01:47.900 +03:00 [DBG] Done attempting to validate the bound parameter 'pageNo' of type 'System.Int32'.
+2024-11-29 17:01:47.907 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Products?pageNo=1
+2024-11-29 17:01:47.910 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Products?pageNo=1
+2024-11-29 17:01:48.347 +03:00 [INF] Received HTTP response headers after 433.0393ms - 200
+2024-11-29 17:01:48.349 +03:00 [INF] End processing HTTP request after 443.1726ms - 200
+2024-11-29 17:01:48.364 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/Categories/
+2024-11-29 17:01:48.366 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/Categories/
+2024-11-29 17:01:48.429 +03:00 [INF] Received HTTP response headers after 61.1889ms - 200
+2024-11-29 17:01:48.431 +03:00 [INF] End processing HTTP request after 67.4594ms - 200
+2024-11-29 17:01:48.435 +03:00 [DBG] View lookup cache miss for view 'Index' in controller 'Product'.
+2024-11-29 17:01:48.437 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-29 17:01:48.439 +03:00 [DBG] The view path '/Views/Product/Index.cshtml' was found in 4.095ms.
+2024-11-29 17:01:48.445 +03:00 [DBG] Found the endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] for address (category=[],action=[Index],controller=[Product])
+2024-11-29 17:01:48.448 +03:00 [DBG] Successfully processed template Catalog/{category?} for WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok) resulting in /Catalog and 
+2024-11-29 17:01:48.450 +03:00 [DBG] Link generation succeeded for endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Catalog
+2024-11-29 17:01:48.455 +03:00 [DBG] Found the endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] for address (category=[phone],action=[Index],controller=[Product])
+2024-11-29 17:01:48.458 +03:00 [DBG] Successfully processed template Catalog/{category?} for WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok) resulting in /Catalog/phone and 
+2024-11-29 17:01:48.461 +03:00 [DBG] Link generation succeeded for endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Catalog/phone
+2024-11-29 17:01:48.464 +03:00 [DBG] Found the endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] for address (category=[headphones],action=[Index],controller=[Product])
+2024-11-29 17:01:48.467 +03:00 [DBG] Successfully processed template Catalog/{category?} for WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok) resulting in /Catalog/headphones and 
+2024-11-29 17:01:48.471 +03:00 [DBG] Link generation succeeded for endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Catalog/headphones
+2024-11-29 17:01:48.474 +03:00 [DBG] Found the endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] for address (category=[laptop],action=[Index],controller=[Product])
+2024-11-29 17:01:48.476 +03:00 [DBG] Successfully processed template Catalog/{category?} for WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok) resulting in /Catalog/laptop and 
+2024-11-29 17:01:48.480 +03:00 [DBG] Link generation succeeded for endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Catalog/laptop
+2024-11-29 17:01:48.485 +03:00 [DBG] Found the endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] for address (category=[tv],action=[Index],controller=[Product])
+2024-11-29 17:01:48.487 +03:00 [DBG] Successfully processed template Catalog/{category?} for WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok) resulting in /Catalog/tv and 
+2024-11-29 17:01:48.490 +03:00 [DBG] Link generation succeeded for endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Catalog/tv
+2024-11-29 17:01:48.499 +03:00 [DBG] View lookup cache miss for view '_PagerAndCardsPartial' in controller 'Product'.
+2024-11-29 17:01:48.537 +03:00 [DBG] Found the endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] for address (pageNo=[1],category=[],action=[Index],controller=[Product])
+2024-11-29 17:01:48.542 +03:00 [DBG] Successfully processed template Catalog/{category?} for WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok) resulting in /Catalog and ?pageNo=1
+2024-11-29 17:01:48.544 +03:00 [DBG] Link generation succeeded for endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Catalog?pageNo=1
+2024-11-29 17:01:48.548 +03:00 [DBG] Found the endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] for address (pageNo=[2],category=[],action=[Index],controller=[Product])
+2024-11-29 17:01:48.551 +03:00 [DBG] Successfully processed template Catalog/{category?} for WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok) resulting in /Catalog and ?pageNo=2
+2024-11-29 17:01:48.553 +03:00 [DBG] Link generation succeeded for endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Catalog?pageNo=2
+2024-11-29 17:01:48.557 +03:00 [DBG] Found the endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] for address (pageNo=[3],category=[],action=[Index],controller=[Product])
+2024-11-29 17:01:48.564 +03:00 [DBG] Successfully processed template Catalog/{category?} for WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok) resulting in /Catalog and ?pageNo=3
+2024-11-29 17:01:48.568 +03:00 [DBG] Link generation succeeded for endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Catalog?pageNo=3
+2024-11-29 17:01:48.571 +03:00 [DBG] Found the endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] for address (pageNo=[2],category=[],action=[Index],controller=[Product])
+2024-11-29 17:01:48.573 +03:00 [DBG] Successfully processed template Catalog/{category?} for WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok) resulting in /Catalog and ?pageNo=2
+2024-11-29 17:01:48.578 +03:00 [DBG] Link generation succeeded for endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Catalog?pageNo=2
+2024-11-29 17:01:48.582 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Product'.
+2024-11-29 17:01:48.585 +03:00 [DBG] View lookup cache miss for view '_MenuPartial' in controller 'Product'.
+2024-11-29 17:01:48.587 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Home])
+2024-11-29 17:01:48.590 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-11-29 17:01:48.593 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-11-29 17:01:48.596 +03:00 [DBG] Found the endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Product])
+2024-11-29 17:01:48.600 +03:00 [DBG] Successfully processed template Catalog/{category?} for WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok) resulting in /Catalog and 
+2024-11-29 17:01:48.604 +03:00 [DBG] Link generation succeeded for endpoints ["WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)","Route: {controller=Home}/{action=Index}/{id?}"] with result /Catalog
+2024-11-29 17:01:48.607 +03:00 [DBG] Found the endpoints ["/Index","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[Admin],page=[/Index])
+2024-11-29 17:01:48.612 +03:00 [DBG] Successfully processed template Admin for /Index resulting in /Admin and 
+2024-11-29 17:01:48.614 +03:00 [DBG] Link generation succeeded for endpoints ["/Index","Route: {controller=Home}/{action=Index}/{id?}"] with result /Admin
+2024-11-29 17:01:48.618 +03:00 [DBG] View lookup cache miss for view '_UserInfoPartial' in controller 'Product'.
+2024-11-29 17:01:48.620 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Account])
+2024-11-29 17:01:48.624 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Login and 
+2024-11-29 17:01:48.626 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Login
+2024-11-29 17:01:48.629 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Register],controller=[Account])
+2024-11-29 17:01:48.632 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Register and 
+2024-11-29 17:01:48.634 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Register
+2024-11-29 17:01:48.637 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-29 17:01:48.640 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-29 17:01:48.643 +03:00 [INF] Executed ViewResult - view Index executed in 207.6489ms.
+2024-11-29 17:01:48.645 +03:00 [INF] Executed action WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok) in 790.8938ms
+2024-11-29 17:01:48.647 +03:00 [INF] Executed endpoint 'WEB_253502_Chertok.Controllers.ProductController.Index (WEB_253502_Chertok)'
+2024-11-29 17:01:48.649 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-29 17:01:48.650 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-29 17:01:48.654 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Catalog - 200 null text/html; charset=utf-8 845.2117ms
+2024-11-29 17:01:48.664 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/WebApplication1.styles.css - null null
+2024-11-29 17:01:48.669 +03:00 [DBG] The request path /WebApplication1.styles.css does not match an existing file
+2024-11-29 17:01:48.672 +03:00 [DBG] No candidates found for the request path '/WebApplication1.styles.css'
+2024-11-29 17:01:48.672 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_vs/browserLink - null null
+2024-11-29 17:01:48.672 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-29 17:01:48.674 +03:00 [DBG] Request did not match any endpoints
+2024-11-29 17:01:48.682 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.5749ms
+2024-11-29 17:01:48.684 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 11.9997ms
+2024-11-29 17:01:48.687 +03:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-11-29 17:01:48.698 +03:00 [ERR] request https://localhost:7001/WebApplication1.styles.css returns 404
+2024-11-29 17:01:48.700 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/WebApplication1.styles.css - 404 0 null 36.1533ms
+2024-11-29 17:01:48.708 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7001/WebApplication1.styles.css, Response status code: 404
